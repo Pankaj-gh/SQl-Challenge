@@ -2,7 +2,7 @@ select e.emp_no,e.last_name,e.firt_name,s.salary from employees e
 join salaries s on e.emp_no = s.emp_no;
 
 select firt_name,last_name from employees
-WHERE hire_date between '1/1/1986' and '12/31/1986'
+WHERE hire_date between '1/1/1986' and '12/31/1986';
 
 select dm.dept_no,d.dept_name,dm.emp_no,e.last_name,e.firt_name from employees e
 join dept_manager dm on e.emp_no=dm.emp_no
